@@ -332,7 +332,7 @@ def dump(token,nama,ttl):
             / /_  / __ `/ ___/ __/
            / __/ / /_/ (__  ) /_  
           /_/    \__,_/____/\__/  
-                                                   \/ 
+                                                   
         %sShelly L. And Noah K.
         """%(ijo,putih))
 	print(f"[{biruM}!{putih}] NYALAKAN => MATIKAN MODE PESAWAT [{biruM}!{putih}]")
