@@ -327,13 +327,13 @@ def dump(token,nama,ttl):
 	global password
 	os.system("clear")
 	jalan("""%s
-   ___________                __                _________
-   \_   _____/____    _______/  |_             /   _____/
-    |    __) \__  \  /  ___/\   __\   ______   \_____  \ 
-    |     \   / __ \_\___ \  |  |    /_____/   /        \
-    \___  /  (____  /____  > |__|             /_______  /
-        \/        \/     \/                           \/ 
-        %sShelly
+              ______           __ 
+             / ____/___ ______/ /_
+            / /_  / __ `/ ___/ __/
+           / __/ / /_/ (__  ) /_  
+          /_/    \__,_/____/\__/  
+                                                   \/ 
+        %sShelly L. And Noah K.
         """%(ijo,putih))
 	print(f"[{biruM}!{putih}] NYALAKAN => MATIKAN MODE PESAWAT [{biruM}!{putih}]")
 	jalan(f"[{biru}={putih}] HALLO\t: {biruM}{nama}{putih}\n[{biru}={putih}] TTL KAMU\t: {biruM}{ttl}{putih}")
